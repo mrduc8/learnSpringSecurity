@@ -8,11 +8,11 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>dev.springsecurity</groupId>
-	<artifactId>learnSpringSecurity</artifactId>
+	<groupId>learn.security</groupId>
+	<artifactId>authenticationProvider</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>learnSpringSecurity</name>
-	<description>learn spring security</description>
+	<name>authenticationProvider</name>
+	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -30,13 +30,6 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>jakarta.servlet</groupId>
-			<artifactId>jakarta.servlet-api</artifactId>
-			<version>6.0.0</version>  <!-- Kiểm tra phiên bản phù hợp với Spring Boot của bạn -->
-			<scope>provided</scope>
-		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
